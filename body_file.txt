@@ -1,0 +1,10 @@
+{
+  "user_id":17455,
+  "team_id":1,
+  "type": "finish_lesson",
+  "detail": 
+  {
+    "course_id": 1,
+    "video_id": 990
+  }
+}
