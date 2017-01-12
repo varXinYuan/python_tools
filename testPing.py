@@ -40,7 +40,7 @@ if __name__ == '__main__':
             pingInfo[domain] = 0;
 
     print "将平均值排序输出..."
-    pingInfo = sorted(pingInfo.items(), lambda x, y: cmp(x[1], y[1]), reverse=True)
+    pingInfo = sorted(pingInfo.items(), lambda x, y: cmp(x[1], y[1]), reverse=False)
     print pingInfo
     #for i in pingInfo:
     #    print i + ":" + pingInfo[i]
